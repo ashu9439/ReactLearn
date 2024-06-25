@@ -1,5 +1,6 @@
 import UseEffectHook from "./hooks/useEffectHook";
 import UseStateHook from "./hooks/useStateHook";
+import CompA from "./hooks/useContextHook/CompA";
 import "./styles.css";
 
 export default function App() {
@@ -9,7 +10,9 @@ export default function App() {
       <h2>Start editing to see some magic happen!</h2>
 
       {/* <UseStateHook /> */}
-      <UseEffectHook />
+      {/* <UseEffectHook /> */}
+
+      <CompA/>
     </div>
   );
 }
